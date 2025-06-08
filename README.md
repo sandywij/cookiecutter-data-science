@@ -93,9 +93,21 @@ The directory structure of your new project looks like this:
 └── tox.ini            <- tox file with settings for running tox; see tox.readthedocs.io
 ```
 
-## Contributing
 
-We welcome contributions! [See the docs for guidelines](https://drivendata.github.io/cookiecutter-data-science/#contributing).
+
+### Set up venv
+------------
+
+    python -m venv .venv
+
+### Activate virtual environment
+------------
+
+    source .venv/bin/activate
+
+
+
+
 
 ### Installing development requirements
 ------------
